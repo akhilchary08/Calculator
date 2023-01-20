@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div>
+        <div>
+            <input type="text" id="input">
+        </div>
+        <div>
+            <!-- <button id="back">back</button> -->
+            <button id="add" onclick="clicked('+')">+</button>
+            <button id="subtract" onclick="clicked('-')">-</button>
+            <button id="multiply" onclick="clicked('*')">*</button>
+            <button id="divide" onclick="clicked('/')">/</button>
+            <button id="calculate" onclick="calculateAns()">=</button>
+            <button id="reset" onclick="reset()">reset</button>
+        </div>
+        <div>
+            <button onclick="clicked('1')">1</button>
+            <button onclick="clicked('2')">2</button>
+            <button onclick="clicked('3')">3</button>
+            <button onclick="clicked('4')">4</button>
+            <button onclick="clicked('5')">5</button>
+            <button onclick="clicked('6')">6</button>
+            <button onclick="clicked('7')">7</button>
+            <button onclick="clicked('8')">8</button>
+            <button onclick="clicked('9')">9</button>
+            <button onclick="clicked('0')">0</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
